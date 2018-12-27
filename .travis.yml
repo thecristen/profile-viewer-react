@@ -13,3 +13,6 @@ addons:
 
 before_script:
   - yarn build
+
+after_success:
+  - ./.travis_publish
